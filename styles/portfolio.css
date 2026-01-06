@@ -55,6 +55,14 @@
 .info-card h4 {
     font-size: 20px;
 }
+#skills , #about ,#resume {
+    margin-top: 130px;
+
+}
+
+
+
+
 
 
 
@@ -79,7 +87,7 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-nav .menu {
+.menu {
     display: flex;
     list-style: none;
     gap: 51px;
@@ -124,9 +132,6 @@ nav .menu li a {
     width: 580px;
     vertical-align: middle;
 }
-#about {
-    padding-top: 130px;
-}
 .about-container {
     width: 71%;
     max-width: 1140px;
@@ -134,11 +139,6 @@ nav .menu li a {
     text-align: center;
     background-color: #FFF8F3;
     padding: 131px 157px;
-}
-#skills {
-    margin-top: 130px;
-    border: 1px solid green;
-
 }
 .skill-container{
     width: 71%;
@@ -173,9 +173,108 @@ nav .menu li a {
     line-height: 18px;
     margin-bottom: 10px;
 }
+.resume-container {
+    width: 71%;
+    max-width:1140px;
+    margin: 113px auto 0;
+    gap: 24px;
+    display: flex;
+}
+.resume-container .section-title {
+    font-size: 30px;
+    color: #474747;
+    padding-bottom: 30px;
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+
+}
+.resume-card-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-card-title {
+    font-size: 20px;
+    font-weight:500;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.resume-card-text {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    color: #757575;
+}
+.resume-container hr {
+    margin: 30px 0;
+}
+.resume-button {
+    text-align: center;
+    margin-top: 20px;
+}
+.main-footer {
+    max-height: 450px;
+    /* width: 71%;
+    max-width: 1140px; */
+    display: flex;
+    justify-content: space-between;
+    padding:80px 150px;
+    margin-top: 120px;
+    background-color: #FFF8F3;
+    gap: 60px;
+
+}
+.left-footer , .right-footer {
+    flex: 1;
+    max-width:600px;
+    /* border: 1px solid red; */
+}
+.main-footer .left-footer h2 {
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.main-footer .right-footer h2 {
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.main-footer .left-footer p {
+    font-size: 15px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+.links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-top: 20px;
+}
+.right-footer {
+    display:grid;
+}
+.name {
+    border: none;
+    border-radius: 5px;
+    padding: 18px;
+}
+
+/*  footer sr somossa hoicche .  */
 
 
-/*  ata ki holo */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
